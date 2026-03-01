@@ -1,3 +1,4 @@
+{% include base_path %}
 {% assign cv = site.data.cv %}
 
 <style>
@@ -69,15 +70,15 @@
   {% endif %}
   
   {% if cv.education.size > 0 %}
-  <!-- Education -->
+  <!-- Education / 教育经历 -->
   <div class="cv-section">
-    <h2>Education</h2>
+    <h2>Education / 教育经历</h2>
     <ul class="cv-list">
       {% for education in cv.education %}
       <li class="cv-item">
         <div class="cv-item-header">
           <div class="cv-item-title">{{ education.area }}</div>
-          <div class="cv-item-date">{{ education.endDate }}</div>
+          <div class="cv-item-date">{% if education.startDate %}{{ education.startDate }}{% endif %}{% if education.startDate and education.endDate %} – {% endif %}{{ education.endDate }}</div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ education.institution }}</div>
@@ -97,9 +98,9 @@
   {% endif %}
   
   {% if cv.work.size > 0 %}
-  <!-- Work Experience -->
+  <!-- Work Experience / 实习经历 -->
   <div class="cv-section">
-    <h2>Work Experience</h2>
+    <h2>Work Experience / 实习经历</h2>
     <ul class="cv-list">
       {% for work in cv.work %}
       <li class="cv-item">
@@ -126,6 +127,27 @@
   </div>
   {% endif %}
   
+  {% if cv.awards.size > 0 %}
+  <!-- Awards & Honors / 获奖荣誉 -->
+  <div class="cv-section">
+    <h2>Awards & Honors / 获奖荣誉</h2>
+    <ul class="cv-list">
+      {% for award in cv.awards %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ award.title }}</div>
+          <div class="cv-item-date">{{ award.date }}</div>
+        </div>
+        <div class="cv-item-content">
+          {% if award.awarder %}<div class="cv-item-subtitle">{{ award.awarder }}</div>{% endif %}
+          {% if award.summary %}<div class="cv-item-detail">{{ award.summary }}</div>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  
   {% if cv.skills.size > 0 %}
   <!-- Skills -->
   <div class="cv-section">
@@ -145,8 +167,29 @@
   </div>
   {% endif %}
   
-  {% if cv.publications.size > 0 %}
-  <!-- Publications -->
+  {% assign pub_count = site.publications | size %}
+  {% if pub_count > 0 %}
+  <!-- Publications / 论文 (from site) -->
+  <div class="cv-section">
+    <h2>Publications / 论文</h2>
+    <ul class="cv-list">
+      {% for post in site.publications reversed %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title"><a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a></div>
+          <div class="cv-item-date">{{ post.date | date: "%Y" }}</div>
+        </div>
+        <div class="cv-item-content">
+          {% if post.venue %}<div class="cv-item-subtitle">{{ post.venue }}</div>{% endif %}
+          {% if post.excerpt %}<div class="cv-item-detail">{{ post.excerpt }}</div>{% endif %}
+          {% if post.paperurl %}<div class="cv-item-detail"><a href="{{ post.paperurl }}" target="_blank">PDF</a></div>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% elsif cv.publications.size > 0 %}
+  <!-- Publications (from cv.json) -->
   <div class="cv-section">
     <h2>Publications</h2>
     <ul class="cv-list">
@@ -158,14 +201,8 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ publication.publisher }}</div>
-          {% if publication.summary %}
-          <div class="cv-item-detail">{{ publication.summary }}</div>
-          {% endif %}
-          {% if publication.website %}
-          <div class="cv-item-detail">
-            <a href="{{ publication.website }}" target="_blank">View Publication</a>
-          </div>
-          {% endif %}
+          {% if publication.summary %}<div class="cv-item-detail">{{ publication.summary }}</div>{% endif %}
+          {% if publication.website %}<div class="cv-item-detail"><a href="{{ publication.website }}" target="_blank">View Publication</a></div>{% endif %}
         </div>
       </li>
       {% endfor %}
@@ -173,10 +210,31 @@
   </div>
   {% endif %}
   
-  {% if cv.presentations.size > 0 %}
-  <!-- Presentations/Talks -->
+  {% assign talk_count = site.talks | size %}
+  {% if talk_count > 0 %}
+  <!-- Presentations/Talks (from site) -->
   <div class="cv-section">
-    <h2>Presentations</h2>
+    <h2>Talks & Presentations</h2>
+    <ul class="cv-list">
+      {% for post in site.talks reversed %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title"><a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a></div>
+          <div class="cv-item-date">{{ post.date | date: "%Y" }}</div>
+        </div>
+        <div class="cv-item-content">
+          {% if post.venue %}<div class="cv-item-subtitle">{{ post.type | default: "Talk" }} at {{ post.venue }}</div>{% endif %}
+          {% if post.location %}<div class="cv-item-detail">{{ post.location }}</div>{% endif %}
+          {% if post.excerpt %}<div class="cv-item-detail">{{ post.excerpt | strip_html | truncate: 150 }}</div>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% elsif cv.presentations.size > 0 %}
+  <!-- Presentations (from cv.json) -->
+  <div class="cv-section">
+    <h2>Talks & Presentations</h2>
     <ul class="cv-list">
       {% for talk in cv.presentations %}
       <li class="cv-item">
@@ -186,12 +244,8 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ talk.event }}</div>
-          {% if talk.location %}
-          <div class="cv-item-detail">{{ talk.location }}</div>
-          {% endif %}
-          {% if talk.description %}
-          <div class="cv-item-detail">{{ talk.description }}</div>
-          {% endif %}
+          {% if talk.location %}<div class="cv-item-detail">{{ talk.location }}</div>{% endif %}
+          {% if talk.description %}<div class="cv-item-detail">{{ talk.description }}</div>{% endif %}
         </div>
       </li>
       {% endfor %}
@@ -225,8 +279,28 @@
   </div>
   {% endif %}
   
-  {% if cv.portfolio.size > 0 %}
-  <!-- Portfolio -->
+  {% assign portfolio_count = site.portfolio | size %}
+  {% if portfolio_count > 0 %}
+  <!-- Portfolio (from site) -->
+  <div class="cv-section">
+    <h2>Portfolio</h2>
+    <ul class="cv-list">
+      {% for post in site.portfolio %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title"><a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a></div>
+          {% if post.date %}<div class="cv-item-date">{{ post.date | date: "%Y" }}</div>{% endif %}
+        </div>
+        <div class="cv-item-content">
+          {% if post.excerpt %}<div class="cv-item-detail">{{ post.excerpt | strip_html | truncate: 200 }}</div>{% endif %}
+          <div class="cv-item-detail"><a href="{{ base_path }}{{ post.url }}" rel="permalink">View Project</a></div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% elsif cv.portfolio.size > 0 %}
+  <!-- Portfolio (from cv.json) -->
   <div class="cv-section">
     <h2>Portfolio</h2>
     <ul class="cv-list">
@@ -238,14 +312,8 @@
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ item.category | capitalize }}</div>
-          {% if item.description %}
-          <div class="cv-item-detail">{{ item.description }}</div>
-          {% endif %}
-          {% if item.url %}
-          <div class="cv-item-detail">
-            <a href="{{ item.url }}" target="_blank">View Project</a>
-          </div>
-          {% endif %}
+          {% if item.description %}<div class="cv-item-detail">{{ item.description }}</div>{% endif %}
+          {% if item.url %}<div class="cv-item-detail"><a href="{{ item.url }}" target="_blank">View Project</a></div>{% endif %}
         </div>
       </li>
       {% endfor %}

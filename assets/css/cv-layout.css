@@ -1,0 +1,25 @@
+/* CV Layout - Full-page resume styling */
+.cv-layout #main {
+  padding: 2rem 0;
+}
+
+.cv-layout .container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.cv-profile-link {
+  color: var(--global-link-color);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.cv-profile-link:hover {
+  text-decoration: underline;
+}
+
+.cv-highlights {
+  margin: 0.5rem 0 0 1rem;
+  padding-left: 1rem;
+}

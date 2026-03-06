@@ -19,6 +19,11 @@
 <div class="cv-container">
   <!-- Basic Information -->
   <div class="cv-section cv-header">
+    {% if site.author.avatar %}
+    <div class="cv-header-avatar">
+      <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ cv.basics.name }}" class="cv-avatar-img">
+    </div>
+    {% endif %}
     <h1>{{ cv.basics.name }}</h1>
     {% if cv.basics.label %}
     <h2>{{ cv.basics.label }}</h2>

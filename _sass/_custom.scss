@@ -1,0 +1,21 @@
+/* Custom styles for personal website */
+
+/* Author bio - preserve line breaks */
+.author__bio {
+  white-space: pre-line;
+}
+
+/* Sidebar - narrower and shifted left */
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    width: 15% !important;
+    max-width: 260px !important;
+    padding-right: 1.5rem !important;
+  }
+
+  /* Adjust main content width to match narrower sidebar */
+  .page__content,
+  .archive__item {
+    width: auto !important;
+  }
+}

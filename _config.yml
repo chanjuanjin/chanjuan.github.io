@@ -26,7 +26,9 @@ author:
   avatar           : "chanjuan.jpg"
   name             : "Chanjuan Jin"
   pronouns         : # example: "she/her"  
-  bio              : "Master's student at Tsinghua University (Medicine & Engineering, 2025–). Top graduate of Jilin University Clinical Medicine (GPA 4.0, Rank 1/82, 2020–2025). Research in multimodal medical imaging, translational oncology, and AI for healthcare."
+  bio              : "Master's student at Tsinghua University (Medicine & Engineering, 2025–).
+Top graduate of Jilin University Clinical Medicine (GPA 4.0, Rank 1/82, 2020–2025).
+Research in multimodal medical imaging, translational oncology, and AI for healthcare."
   location         : "Beijing, China"
   employer         : "Tsinghua University"
   uri              : # URL

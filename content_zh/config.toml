@@ -1,0 +1,39 @@
+[site]
+title = "金娟娟"
+description = "清华大学硕士研究生 —— 医学、工程与医疗AI。"
+favicon = "/favicon.svg"
+last_updated = "2026年5月16日"
+
+[author]
+name = "金娟娟"
+title = "硕士研究生"
+institution = "清华大学"
+avatar = "/bio.jpg"
+
+[social]
+email = "jincj9920@gmail.com"
+location = "中国，北京"
+google_scholar = "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+github = "https://github.com/chanjuanjin"
+
+[features]
+enable_likes = true
+enable_one_page_mode = false
+
+[[navigation]]
+title = "关于我"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "发表论文"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "简历"
+type = "page"
+target = "cv"
+href = "/cv"

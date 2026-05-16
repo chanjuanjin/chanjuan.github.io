@@ -1,0 +1,28 @@
+type = "about"
+title = "关于我"
+
+[profile]
+research_interests = [
+  "多模态医学影像处理",
+  "转化肿瘤学与PDX模型",
+  "医疗人工智能"
+]
+
+[[sections]]
+id = "about"
+type = "markdown"
+source = "bio.md"
+title = "关于我"
+
+[[sections]]
+id = "featured_publications"
+type = "publications"
+title = "精选论文"
+filter = "selected"
+limit = 5
+
+[[sections]]
+id = "news"
+type = "list"
+title = "最新动态"
+source = "news.toml"

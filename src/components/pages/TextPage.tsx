@@ -24,7 +24,7 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                     {config.description}
                 </p>
             )}
-            <div className="text-neutral-700 dark:text-neutral-600 leading-relaxed">
+            <div className="prose text-neutral-700 dark:text-neutral-600 leading-relaxed">
                 <ReactMarkdown
                     components={{
                         h1: ({ children }) => <h1 className="text-3xl font-serif font-bold text-primary mt-8 mb-4">{children}</h1>,
@@ -34,6 +34,12 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                         ul: ({ children }) => <ul className="list-disc list-inside mb-4 space-y-1 ml-4">{children}</ul>,
                         ol: ({ children }) => <ol className="list-decimal list-inside mb-4 space-y-1 ml-4">{children}</ol>,
                         li: ({ children }) => <li className="mb-1">{children}</li>,
+                        table: ({ children }) => <table className="w-full border-collapse my-6 rounded-lg overflow-hidden">{children}</table>,
+                        thead: ({ children }) => <thead className="bg-neutral-100 dark:bg-neutral-800">{children}</thead>,
+                        tbody: ({ children }) => <tbody>{children}</tbody>,
+                        tr: ({ children }) => <tr className="border-b border-neutral-200 dark:border-neutral-700 last:border-0">{children}</tr>,
+                        th: ({ children }) => <th className="px-4 py-3 text-left font-semibold text-foreground">{children}</th>,
+                        td: ({ children }) => <td className="px-4 py-3 text-neutral-700 dark:text-neutral-600">{children}</td>,
                         a: ({ ...props }) => (
                             <a
                                 {...props}

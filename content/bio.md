@@ -4,14 +4,15 @@ I received my B.S. in Clinical Medicine (GPA: **4.0/4.0**, Rank: **1/82**) from 
 - **[Westlake University](https://www.westlake.edu.cn/)** — Weike Pei Lab, hematopoietic stem cell & immune system development
 - **[University of Cambridge](https://www.cam.ac.uk/)** — Machine Learning & Computer Vision, supervised by **[Prof. Pietro Lio](https://www.cl.cam.ac.uk/~pl219/)**
 
-Beyond research, I am deeply embedded in Tsinghua's entrepreneurship ecosystem. I serve as President of the Medicine-Engineering Student Team, Vice President of the Student Entrepreneurship Association, and Instructor at the Entrepreneurship Guidance Center. I am the founding CEO of **MOOD** — a multimodal emotional regulation system integrating neuroscience and AI, funded by **[Tsinghua iCenter](https://icenter.tsinghua.edu.cn/)**.
+Beyond research, I am deeply embedded in Tsinghua's entrepreneurship ecosystem. I serve as President of the Tsinghua Medicine-Engineering Team, Vice President of the Tsinghua Entrepreneurship Association, and Instructor at the Entrepreneurship Guidance Center. I am the founding CEO of **MOOD** — a multimodal emotional regulation system integrating neuroscience and AI, funded by **[Tsinghua iCenter](https://icenter.tsinghua.edu.cn/)**.
 
 ## Research Interests
 
 - **Multimodal medical image processing** — cross-modal fusion, segmentation, AI-assisted diagnosis
+- **AI × medicine systems** — agent workflows, clinical decision support, precision oncology platforms
 - **Translational oncology** — patient-derived xenograft (PDX) models, organoids, drug sensitivity profiling, miniPDX
 - **Single-cell & spatial multi-omics** — scRNA-seq, spatial transcriptomics in lymphoma and hematologic malignancies
-- **AI × medicine systems** — agent workflows, clinical decision support, precision oncology platforms
+
 
 ## Skills
 
@@ -25,9 +26,11 @@ Beyond research, I am deeply embedded in Tsinghua's entrepreneurship ecosystem. 
 
 | Role | Organization |
 |------|-------------|
-| President | Tsinghua Medicine-Engineering Student Team |
-| Vice President | Tsinghua Student Entrepreneurship Association |
+| President | Tsinghua Medicine-Engineering Team |
+| Vice President | Tsinghua Entrepreneurship Association |
 | Instructor | Tsinghua Entrepreneurship Guidance Center |
-| Member, 13th Cohort | Tsinghua "Qichuang" Personalized Training Program |
+| Member, 13th Cohort | Tsinghua "Qichuang" Personalized Training Program in Entrepreneurship |
 | Minister | Graduate Student Union, Tsinghua Clinical Medical College |
+| Admin Assistant | Tsinghua University Latin America Center |
 | Founder & CEO | MOOD — AI × Neuroscience Emotional Regulation System |
+| COO | Verix - Trust, verified. Delivery, accountable |

@@ -1,10 +1,10 @@
 [[news]]
 date = "2025-09"
-content = "Started M.S. at Tsinghua University — Medicine-Engineering Interdisciplinary Research, supervised by CAE Academician Prof. Jiahong Dong"
+content = "Started M.S. at <a href=\"https://www.tsinghua.edu.cn/\" target=\"_blank\" rel=\"noopener\"><strong>Tsinghua University</strong></a> — Medicine-Engineering Interdisciplinary Research, supervised by CAE Academician Prof. <a href=\"https://www.scm.tsinghua.edu.cn/info/1146/1565.htm\" target=\"_blank\" rel=\"noopener\">Jiahong Dong</a>"
 
 [[news]]
 date = "2025-07"
-content = "Joined <strong>BGI Genomics</strong> as Education Program Intern — leading iGEM team mentorship and synthetic biology workshops in Shenzhen"
+content = "Joined <a href=\"https://www.bgi.com/\" target=\"_blank\" rel=\"noopener\"><strong>BGI Genomics</strong></a> as Education Program Intern — leading iGEM team mentorship and synthetic biology workshops in Shenzhen"
 
 [[news]]
 date = "2025-04"
@@ -16,23 +16,27 @@ content = "iGEM 2025 <a href=\"https://2025.igem.wiki/jlu-cp/\" target=\"_blank\
 
 [[news]]
 date = "2025-02"
-content = "Campus Ambassador at <strong>YanYin Technology</strong> — gene-editing platform development, plasmid design and protocol standardization"
+content = "Campus Ambassador at <a href=\"https://www.yanyin.tech/\" target=\"_blank\" rel=\"noopener\"><strong>YanYin Technology</strong></a> — gene-editing platform development, plasmid design and protocol standardization"
 
 [[news]]
 date = "2024-11"
-content = "iGEM 2024 International <strong>Gold Medal</strong> (Team Leader); \"Challenge Cup\" National Entrepreneurship Competition <strong>Bronze Award</strong> (Core Member)"
+content = "iGEM 2024 International <a href=\"https://2024.igem.wiki/jlu-cp/\" target=\"_blank\" rel=\"noopener\"><strong>Gold Medal</strong></a> (Team Leader); \"Challenge Cup\" National Entrepreneurship Competition <strong>Bronze Award</strong> (Core Member)"
 
 [[news]]
 date = "2024-02"
-content = "Received <strong>Beijing Hairun Foundation Grant</strong> — research on Mitoxantrone Liposome efficacy in Malignant Lymphoma (miniPDX model, 2024–2027)"
+content = "Received <a href=\"http://www.hlmfi.com/\" target=\"_blank\" rel=\"noopener\"><strong>Beijing Hairun Foundation Grant</strong></a> — research on Mitoxantrone Liposome efficacy in Malignant Lymphoma (miniPDX model, 2024–2027)"
 
 [[news]]
 date = "2023-12"
-content = "Presented <strong>2 first-author posters</strong> at ASH 2023 (American Society of Hematology Annual Meeting, San Diego) on IO-FIVE PDX model and lymphoma observational analysis"
+content = "ASH 2023 poster accepted — <a href=\"https://www.hematology.org/meetings/annual-meeting\" target=\"_blank\" rel=\"noopener\">Non-Interventional Observational Analysis of IO-FIVE in Lymphoma Patients</a> (First author, ASH Annual Meeting, San Diego)"
+
+[[news]]
+date = "2023-12"
+content = "ASH 2023 poster accepted — <a href=\"https://www.hematology.org/meetings/annual-meeting\" target=\"_blank\" rel=\"noopener\">A Novel Patient-Derived Xenograft Model IO-FIVE for Drug Discovery and Precision Medicine</a> (First author, ASH Annual Meeting, San Diego)"
 
 [[news]]
 date = "2023-09"
-content = "Completed visiting studentship at <strong>Westlake University</strong>, Weike Pei Lab — hematopoietic stem cell &amp; immune system development, animal experiments &amp; bioinformatics"
+content = "Completed visiting studentship at <a href=\"https://www.westlake.edu.cn/\" target=\"_blank\" rel=\"noopener\"><strong>Westlake University</strong></a>, Weike Pei Lab — hematopoietic stem cell &amp; immune system development, animal experiments &amp; bioinformatics"
 
 [[news]]
 date = "2023-07"
@@ -44,8 +48,28 @@ content = "Paper published in <i>Frontiers in Oncology</i> — <a href=\"https:/
 
 [[news]]
 date = "2023-03"
-content = "Academic program at the <strong>University of Cambridge</strong> — Machine Learning &amp; Computer Vision, supervised by Prof. Pietro Lio"
+content = "Academic program at the <a href=\"https://www.cam.ac.uk/\" target=\"_blank\" rel=\"noopener\"><strong>University of Cambridge</strong></a> — Machine Learning &amp; Computer Vision, supervised by Prof. <a href=\"https://www.cl.cam.ac.uk/~pl219/\" target=\"_blank\" rel=\"noopener\">Pietro Lio</a>"
+
+[[news]]
+date = "2023-01"
+content = "Paper published in <i>Archives of Biochemistry and Biophysics</i> — <a href=\"https://doi.org/10.1016/j.abb.2022.109497\" target=\"_blank\" rel=\"noopener\">NFIC1 inhibits migration and invasion of MDA-MB-231 cells through S100A2-mediated MEK/ERK pathway inactivation</a> (First author, PMID: 36574914)"
+
+[[news]]
+date = "2022-07"
+content = "Paper published in <i>Archives of Biochemistry and Biophysics</i> — <a href=\"https://doi.org/10.1016/j.abb.2022.109346\" target=\"_blank\" rel=\"noopener\">NFIC1 suppresses migration and invasion of breast cancer cells through interferon-mediated Jak-STAT pathway</a> (First author, PMID: 35798053)"
 
 [[news]]
 date = "2022-10"
-content = "iGEM 2022 International <strong>Gold Medal</strong> (Team Leader); National Medical Virtual Simulation Competition <strong>National Outstanding Award</strong>; Life Science Competition National Third Prize (Team Leader)"
+content = "iGEM 2022 International <a href=\"https://2022.igem.wiki/jilin-china/\" target=\"_blank\" rel=\"noopener\"><strong>Gold Medal</strong></a>; Life Science Competition National Third Prize (Team Leader)"
+
+[[news]]
+date = "2022-05"
+content = "National Medical Virtual Simulation Competition <strong>National Outstanding Award</strong>"
+
+[[news]]
+date = "2020-12"
+content = "National College Student Innovation and Entrepreneurship Training Program (NCETP) — National-Level Project"
+
+[[news]]
+date = "2020-09"
+content = "Started B.S. at <a href=\"https://www.jlu.edu.cn/\" target=\"_blank\" rel=\"noopener\"><strong>Jilin University</strong></a> - Clinical Medicine (End up with rank 1/82, GPA 4.0/4.0)"

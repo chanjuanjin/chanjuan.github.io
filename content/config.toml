@@ -1,0 +1,52 @@
+[site]
+title = "Chanjuan Jin"
+description = "Master's student at Tsinghua University — Medicine, Engineering, and AI for Health."
+favicon = "/favicon.svg"
+last_updated = "May 16, 2026"
+
+[author]
+name = "Chanjuan Jin"
+title = "Master's Student"
+institution = "Tsinghua University"
+avatar = "/bio.jpg"
+
+[social]
+email = "jincj9920@gmail.com"
+location = "Beijing, China"
+google_scholar = "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+github = "https://github.com/chanjuanjin"
+
+[features]
+enable_likes = true
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["zh", "en"]
+default_locale = "en"
+mode = "auto"
+fixed_locale = "en"
+persist = true
+switcher = true
+
+[i18n.labels]
+zh = "中文"
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

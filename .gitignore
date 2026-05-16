@@ -1,23 +1,42 @@
-# Ignore the contents of the _site directory and other cache directories
+# Node.js / Next.js
+node_modules/
+.pnpm-store/
+.npm/
+.vercel/
+.netlify/
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# Jekyll (legacy)
 _site/
 .sass-cache/
-
-# Ignore the directory for local files during development
 local/
-
-# Ignore the Gemfile that is generated
 Gemfile.lock
-
-# Ignore files created by npm
-node_modules
-package-lock.json
-
-# Ignore the vendor file at root level and bundle for alternative installation
 /vendor/
 .bundle/
 
-# Ignore folders related to IDEs
+# IDEs
 .vscode/
+.idea/
 
-# Ignore files created by MacOS
+# OS
 .DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env*
+.env*.local
+
+# Cache
+.cache/
+.parcel-cache/

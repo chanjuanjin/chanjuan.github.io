@@ -1,10 +1,18 @@
 [[news]]
 date = "2025-09"
-content = "入学清华大学医工交叉硕士项目，师从中国工程院院士董家鸿教授"
+content = "入学<a href=\"https://www.tsinghua.edu.cn/\" target=\"_blank\" rel=\"noopener\"><strong>清华大学</strong></a>医工交叉硕士项目，师从中国工程院院士<a href=\"https://www.scm.tsinghua.edu.cn/info/1146/1565.htm\" target=\"_blank\" rel=\"noopener\">董家鸿教授</a>"
+
+[[news]]
+date = "2025-10"
+content = "创立<a href=\"https://icenter.tsinghua.edu.cn/\" target=\"_blank\" rel=\"noopener\"><strong>MOOD</strong></a>——AI×神经科学多模态情绪调节系统，获清华iCenter资助（创始人 &amp; CEO）"
+
+[[news]]
+date = "2026-04"
+content = "加入<a href=\"https://www.verix.io/\" target=\"_blank\" rel=\"noopener\"><strong>Verix</strong></a>——区块链验证平台，\"Trust, verified. Delivery, accountable\"（COO）"
 
 [[news]]
 date = "2025-07"
-content = "加入<strong>华大基因</strong>担任生信教育实习生——主导iGEM团队指导，在深圳开展合成生物学系列工作坊"
+content = "加入<a href=\"https://www.bgi.com/\" target=\"_blank\" rel=\"noopener\"><strong>华大基因</strong></a>担任生信教育实习生——主导iGEM团队指导，在深圳开展合成生物学系列工作坊"
 
 [[news]]
 date = "2025-04"
@@ -16,23 +24,27 @@ content = "iGEM 2025 <a href=\"https://2025.igem.wiki/jlu-cp/\" target=\"_blank\
 
 [[news]]
 date = "2025-02"
-content = "担任<strong>衍因科技</strong>校园大使——参与基因编辑平台开发，负责质粒设计与实验方案标准化"
+content = "担任<a href=\"https://www.yanyin.tech/\" target=\"_blank\" rel=\"noopener\"><strong>衍因科技</strong></a>校园大使——参与基因编辑平台开发，负责质粒设计与实验方案标准化"
 
 [[news]]
 date = "2024-11"
-content = "iGEM 2024 国际<strong>金奖</strong>（队长）；\"挑战杯\"中国大学生创业计划竞赛全国<strong>铜奖</strong>（核心成员）"
+content = "iGEM 2024 国际<a href=\"https://2024.igem.wiki/jlu-cp/\" target=\"_blank\" rel=\"noopener\"><strong>金奖</strong></a>（队长）；\"挑战杯\"中国大学生创业计划竞赛全国<strong>铜奖</strong>（核心成员）"
 
 [[news]]
 date = "2024-02"
-content = "获批<strong>北京海润公益基金会</strong>横向课题——米托蒽醌脂质体基于miniPDX模型的疗效评估与免疫机制研究（2024–2027）"
+content = "获批<a href=\"http://www.hlmfi.com/\" target=\"_blank\" rel=\"noopener\"><strong>北京海润公益基金会</strong></a>横向课题——米托蒽醌脂质体基于miniPDX模型的疗效评估与免疫机制研究（2024–2027）"
 
 [[news]]
 date = "2023-12"
-content = "以第一作者在<strong>ASH 2023</strong>（美国血液学学会年会，圣地亚哥）发表两篇大会壁报，内容涉及IO-FIVE PDX模型及淋巴瘤观察性分析"
+content = "ASH 2023 壁报接收——<a href=\"https://www.hematology.org/meetings/annual-meeting\" target=\"_blank\" rel=\"noopener\">淋巴瘤患者IO-FIVE非干预性观察分析</a>（第一作者，ASH年会，圣地亚哥）"
+
+[[news]]
+date = "2023-12"
+content = "ASH 2023 壁报接收——<a href=\"https://www.hematology.org/meetings/annual-meeting\" target=\"_blank\" rel=\"noopener\">一种新型患者来源异种移植模型IO-FIVE用于药物发现和精准医学</a>（第一作者，ASH年会，圣地亚哥）"
 
 [[news]]
 date = "2023-09"
-content = "赴<strong>西湖大学</strong>裴威克实验室开展访问研究——造血干细胞与免疫系统发育，负责动物实验与生信分析"
+content = "赴<a href=\"https://www.westlake.edu.cn/\" target=\"_blank\" rel=\"noopener\"><strong>西湖大学</strong></a>裴威克实验室开展访问研究——造血干细胞与免疫系统发育，负责动物实验与生信分析"
 
 [[news]]
 date = "2023-07"
@@ -44,8 +56,16 @@ content = "论文发表于 <i>Frontiers in Oncology</i> — <a href=\"https://do
 
 [[news]]
 date = "2023-03"
-content = "赴<strong>剑桥大学</strong>参加学术合作项目——机器学习与计算机视觉，导师 <a href=\"https://www.cl.cam.ac.uk/~pl219/\" target=\"_blank\" rel=\"noopener\">Prof. Pietro Lio</a>"
+content = "赴<a href=\"https://www.cam.ac.uk/\" target=\"_blank\" rel=\"noopener\"><strong>剑桥大学</strong></a>参加学术合作项目——机器学习与计算机视觉，导师 <a href=\"https://www.cl.cam.ac.uk/~pl219/\" target=\"_blank\" rel=\"noopener\">Pietro Lio教授</a>"
+
+[[news]]
+date = "2023-01"
+content = "论文发表于 <i>Archives of Biochemistry and Biophysics</i> — <a href=\"https://doi.org/10.1016/j.abb.2022.109497\" target=\"_blank\" rel=\"noopener\">NFIC1通过S100A2介导的MEK/ERK通路失活抑制MDA-MB-231细胞迁移和侵袭</a>（第一作者，PMID: 36574914）"
 
 [[news]]
 date = "2022-10"
-content = "iGEM 2022 国际<strong>金奖</strong>（队长）；全国医学生虚拟仿真创新实验大赛<strong>国家级卓越奖</strong>；全国大学生生命科学竞赛国家级三等奖（队长）"
+content = "iGEM 2022 国际<a href=\"https://2022.igem.wiki/jilin-china/\" target=\"_blank\" rel=\"noopener\"><strong>金奖</strong></a>（队长）；全国医学生虚拟仿真创新实验大赛<strong>国家级卓越奖</strong>；全国大学生生命科学竞赛国家级三等奖（队长）"
+
+[[news]]
+date = "2022-07"
+content = "论文发表于 <i>Archives of Biochemistry and Biophysics</i> — <a href=\"https://doi.org/10.1016/j.abb.2022.109346\" target=\"_blank\" rel=\"noopener\">NFIC1通过干扰素介导的Jak-STAT通路抑制乳腺癌细胞迁移和侵袭</a>（第一作者，PMID: 35798053）"

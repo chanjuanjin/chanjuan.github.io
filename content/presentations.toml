@@ -1,0 +1,17 @@
+type = "card"
+title = "Presentations"
+description = "Conference posters and presentations"
+
+[[items]]
+title = "Non-Interventional Observational Analysis of IO-FIVE in Lymphoma Patients"
+subtitle = "ASH Annual Meeting 2023"
+date = "2023"
+content = "First author. Presented at the American Society of Hematology Annual Meeting in San Diego."
+tags = ["Poster", "ASH", "First Author"]
+
+[[items]]
+title = "A Novel Patient-Derived Xenograft Model IO-FIVE for Drug Discovery and Precision Medicine"
+subtitle = "ASH Annual Meeting 2023"
+date = "2023"
+content = "First author. Presented at the American Society of Hematology Annual Meeting in San Diego."
+tags = ["Poster", "ASH", "First Author"]

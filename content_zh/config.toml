@@ -33,6 +33,12 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
+title = "会议报告"
+type = "page"
+target = "presentations"
+href = "/presentations"
+
+[[navigation]]
 title = "简历"
 type = "page"
 target = "cv"

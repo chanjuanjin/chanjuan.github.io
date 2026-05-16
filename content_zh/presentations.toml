@@ -1,0 +1,17 @@
+type = "card"
+title = "会议报告"
+description = "学术会议海报与报告"
+
+[[items]]
+title = "IO-FIVE在淋巴瘤患者中的非干预性观察分析"
+subtitle = "美国血液学会年会 2023"
+date = "2023"
+content = "第一作者。在圣地亚哥举行的美国血液学会年会上展示。"
+tags = ["海报", "ASH", "第一作者"]
+
+[[items]]
+title = "一种新型患者来源异种移植模型IO-FIVE用于药物发现和精准医学"
+subtitle = "美国血液学会年会 2023"
+date = "2023"
+content = "第一作者。在圣地亚哥举行的美国血液学会年会上展示。"
+tags = ["海报", "ASH", "第一作者"]

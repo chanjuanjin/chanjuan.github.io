@@ -1,0 +1,27 @@
+type = "card"
+title = "教学经历"
+description = "指导与合作"
+
+[[items]]
+title = "iGEM 团队指导老师"
+subtitle = "清华大学"
+date = "2025"
+content = "指导iGEM竞赛团队获得国际金奖。"
+
+[[items]]
+title = "iGEM 团队带队教练"
+subtitle = "清华大学"
+date = "2025"
+content = "作为教练带领团队获得国际银奖。"
+
+[[items]]
+title = "iGEM 团队队长"
+subtitle = "吉林大学"
+date = "2024"
+content = "作为队长带领团队获得国际金奖。"
+
+[[items]]
+title = "合成生物学工作坊讲师"
+subtitle = "华大基因"
+date = "2025"
+content = "为iGEM团队讲授合成生物学实验技术。"

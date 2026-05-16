@@ -3,25 +3,49 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "iGEM International Gold Medal (Advisor) & Silver Medal (Instructor)"
+subtitle = "International Genetically Engineered Machine Competition"
 date = "2025"
-content = "Description of the award."
+content = "Advised team to win Gold Medal; coached team to win Silver Medal."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Challenge Cup Entrepreneurship Competition — Provincial 2nd Prize"
+subtitle = "Challenge Cup"
+date = "2025"
+content = "Business plan awarded 2nd Prize at provincial level."
+
+[[items]]
+title = "iGEM International Gold Medal (Team Leader)"
+subtitle = "International Genetically Engineered Machine Competition"
 date = "2024"
-content = "Description of the award."
+content = "Led team to win Gold Medal as team leader."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Challenge Cup Entrepreneurship Competition — National Bronze Award"
+subtitle = "Challenge Cup"
+date = "2024"
+content = "Startup project awarded National Bronze Award."
+
+[[items]]
+title = "ASH Annual Meeting Poster Presentations (2 posters, 1st Author)"
+subtitle = "American Society of Hematology Annual Meeting"
 date = "2023"
-content = "Description of the award."
+content = "Two posters presented at ASH annual meeting, both as first author."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "National Medical Virtual Simulation Competition — National Outstanding Award"
+subtitle = "National Medical Competition"
 date = "2022"
-content = "Description of the award."
+content = "Awarded National Outstanding Award in medical virtual simulation."
+
+[[items]]
+title = "National College Student Life Science Competition — National 3rd Prize"
+subtitle = "National Life Science Competition"
+date = "2022 & 2024"
+content = "Won National 3rd Prize as team leader for two consecutive years."
+
+[[items]]
+title = "Zhumeng Yuanhang Jilin University Class A High-Level Honor"
+subtitle = "Jilin University"
+date = "2024"
+content = "Received the highest level student honor at Jilin University."

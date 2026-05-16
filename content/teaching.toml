@@ -1,10 +1,27 @@
 type = "card"
 title = "Teaching"
-description = "Courses I have taught or assisted with."
+description = "Mentorship and collaboration."
 
 [[items]]
-title = "Example Course"
-subtitle = "Teaching Assistant"
+title = "iGEM Team Advisor"
+subtitle = "Tsinghua University"
+date = "2025"
+content = "Advised iGEM competition team to win International Gold Medal."
+
+[[items]]
+title = "iGEM Team Instructor"
+subtitle = "Tsinghua University"
+date = "2025"
+content = "Coached team to win International Silver Medal."
+
+[[items]]
+title = "iGEM Team Leader"
+subtitle = "Jilin University"
 date = "2024"
-content = "Description of the course and responsibilities. Content of this course can be found [here](https://example.com)."
-tags = ["Undergraduate", "CS"]
+content = "Led team to win International Gold Medal as team leader."
+
+[[items]]
+title = "Synthetic Biology Workshop Instructor"
+subtitle = "BGI Genomics"
+date = "2025"
+content = "Taught synthetic biology experimental techniques to iGEM teams."

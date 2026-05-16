@@ -1,0 +1,51 @@
+type = "card"
+title = "荣誉奖项"
+description = "获得的荣誉与奖项"
+
+[[items]]
+title = "iGEM 国际金奖（指导老师）& 国际银奖（带队教练）"
+subtitle = "国际遗传工程机器竞赛"
+date = "2025"
+content = "作为指导老师带领团队获得国际金奖，作为带队教练获得国际银奖。"
+
+[[items]]
+title = "「挑战杯」创业竞赛省级二等奖"
+subtitle = "挑战杯"
+date = "2025"
+content = "创业计划书获得省级二等奖。"
+
+[[items]]
+title = "iGEM 国际金奖（队长）"
+subtitle = "国际遗传工程机器竞赛"
+date = "2024"
+content = "作为队长带领团队获得国际金奖。"
+
+[[items]]
+title = "「挑战杯」创业竞赛全国铜奖"
+subtitle = "挑战杯"
+date = "2024"
+content = "创业项目获得全国铜奖。"
+
+[[items]]
+title = "ASH 年会海报报告（2篇，第一作者）"
+subtitle = "美国血液学会年会"
+date = "2023"
+content = "两篇海报在ASH年会上展示，均为第一作者。"
+
+[[items]]
+title = "全国医学虚拟仿真实验竞赛全国杰出奖"
+subtitle = "全国医学竞赛"
+date = "2022"
+content = "医学虚拟仿真实验竞赛获得全国杰出奖。"
+
+[[items]]
+title = "全国大学生生命科学竞赛全国三等奖"
+subtitle = "全国生命科学竞赛"
+date = "2022 & 2024"
+content = "作为队长连续两年参赛并获得全国三等奖。"
+
+[[items]]
+title = "「筑梦远航」吉林大学A类高层次荣誉"
+subtitle = "吉林大学"
+date = "2024"
+content = "获得吉林大学最高层次学生荣誉。"

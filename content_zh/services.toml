@@ -1,0 +1,33 @@
+type = "card"
+title = "学术服务"
+description = "专业服务与社会活动"
+
+[[items]]
+title = "首席行政官"
+subtitle = "清华大学医学与工程团队"
+date = "2025–至今"
+content = "负责团队行政管理与运营工作。"
+
+[[items]]
+title = "副会长"
+subtitle = "清华大学学生创业协会"
+date = "2025–至今"
+content = "负责协会日常运营与活动组织。"
+
+[[items]]
+title = "顾问"
+subtitle = "清华大学创业指导中心"
+date = "2025–至今"
+content = "为学生创业项目提供指导与咨询。"
+
+[[items]]
+title = "部长"
+subtitle = "清华临床医学院研究生会"
+date = "2025–至今"
+content = "负责研究生会相关工作。"
+
+[[items]]
+title = "CEO & 创始人"
+subtitle = "MOOD — AI×神经科学多模态情绪调节系统"
+date = "2024–至今"
+content = "创立AI与神经科学交叉的创业项目，获清华iCenter资助。"

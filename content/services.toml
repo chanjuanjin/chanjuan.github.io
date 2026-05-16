@@ -3,7 +3,31 @@ title = "Services"
 description = "Professional services and community involvement."
 
 [[items]]
-title = "Reviewer"
-subtitle = "Journal Name"
-date = "2024"
-content = "Reviewed papers for..."
+title = "Chief Administrative Officer"
+subtitle = "Tsinghua Medicine & Engineering Team"
+date = "2025–Present"
+content = "Responsible for team administration and operations."
+
+[[items]]
+title = "Vice President"
+subtitle = "Tsinghua University Student Entrepreneurship Association"
+date = "2025–Present"
+content = "Oversee daily operations and event organization."
+
+[[items]]
+title = "Counselor"
+subtitle = "Tsinghua Entrepreneurship Guidance Center"
+date = "2025–Present"
+content = "Provide guidance and consulting for student startup projects."
+
+[[items]]
+title = "Minister"
+subtitle = "Graduate Student Union, Tsinghua Clinical Medical College"
+date = "2025–Present"
+content = "Responsible for graduate student union activities."
+
+[[items]]
+title = "CEO & Founder"
+subtitle = "MOOD — AI × Neuroscience Multimodal Emotional Regulation System"
+date = "2024–Present"
+content = "Founded AI-neuroscience crossover startup; funded by Tsinghua iCenter."

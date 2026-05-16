@@ -1,13 +1,13 @@
 [site]
 title = "Chanjuan Jin | 金婵娟"
-description = "M.S. student at Tsinghua University (Medicine-Engineering Intersection). Research: multimodal medical imaging, translational oncology, AI for health."
+description = "M.S. student at Tsinghua University (Medicine-Engineering Interdisciplinary Research). Research: multimodal medical imaging, translational oncology, AI for health."
 favicon = "/favicon.svg"
 last_updated = "May 2026"
 
 [author]
 name = "Chanjuan Jin"
 name_zh = "金婵娟"
-title = "M.S. Student, Medicine-Engineering Intersection"
+title = "M.S. Student, Medicine-Engineering Interdisciplinary Research"
 institution = "Tsinghua University"
 institution_url = "https://www.tsinghua.edu.cn"
 advisor = "Prof. Jiahong Dong (CAE Academician)"

@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { useMessages } from '@/lib/i18n/useMessages';
 
 interface AboutProps {
@@ -22,6 +23,7 @@ export default function About({ content, title }: AboutProps) {
             <h2 className="text-2xl font-serif font-bold text-primary mb-4">{resolvedTitle}</h2>
             <div className="text-neutral-700 dark:text-neutral-600 leading-relaxed">
                 <ReactMarkdown
+                    remarkPlugins={[remarkGfm]}
                     components={{
                         h1: ({ children }) => <h1 className="text-3xl font-serif font-bold text-primary mt-8 mb-4">{children}</h1>,
                         h2: ({ children }) => <h2 className="text-2xl font-serif font-bold text-primary mt-8 mb-4 border-b border-neutral-200 dark:border-neutral-800 pb-2">{children}</h2>,
@@ -45,6 +47,24 @@ export default function About({ content, title }: AboutProps) {
                         ),
                         strong: ({ children }) => <strong className="font-semibold text-primary">{children}</strong>,
                         em: ({ children }) => <em className="italic text-neutral-600 dark:text-neutral-500">{children}</em>,
+                        table: ({ children }) => (
+                            <div className="overflow-x-auto my-4">
+                                <table className="min-w-full divide-y divide-neutral-200 dark:divide-neutral-800">{children}</table>
+                            </div>
+                        ),
+                        thead: ({ children }) => <thead className="bg-neutral-50 dark:bg-neutral-800">{children}</thead>,
+                        tbody: ({ children }) => <tbody className="bg-white dark:bg-neutral-900 divide-y divide-neutral-200 dark:divide-neutral-800">{children}</tbody>,
+                        tr: ({ children }) => <tr>{children}</tr>,
+                        th: ({ children }) => (
+                            <th className="px-4 py-3 text-left text-xs font-medium text-neutral-500 dark:text-neutral-400 uppercase tracking-wider">
+                                {children}
+                            </th>
+                        ),
+                        td: ({ children }) => (
+                            <td className="px-4 py-3 text-sm text-neutral-700 dark:text-neutral-600 whitespace-nowrap">
+                                {children}
+                            </td>
+                        ),
                     }}
                 >
                     {content}

@@ -7,7 +7,8 @@
       "Bash(curl -s \"https://chanjuanjin.github.io/chanjuan.github.io/\")",
       "Bash(curl -s -I \"https://chanjuanjin.github.io/chanjuan.github.io/chanjuan_pic.jpg\")",
       "Bash(curl -s -I \"https://chanjuanjin.github.io/chanjuan.github.io/_next/static/chunks/4bd1b696-70b6d399998de86a.js\")",
-      "Bash(curl -s -I \"https://chanjuanjin.github.io/chanjuan_pic.jpg\")"
+      "Bash(curl -s -I \"https://chanjuanjin.github.io/chanjuan_pic.jpg\")",
+      "Bash(npm list *)"
     ]
   }
 }

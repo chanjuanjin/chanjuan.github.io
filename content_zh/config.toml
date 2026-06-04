@@ -14,7 +14,6 @@ avatar = "/chanjuan.github.io/chanjuan_pic.jpg"
 email = "jincj9920@gmail.com"
 location = "中国，北京"
 location_details = ["北京市清华大学"]
-google_scholar = "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
 github = "https://github.com/chanjuanjin"
 
 [features]

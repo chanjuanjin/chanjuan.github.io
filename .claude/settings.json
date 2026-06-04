@@ -8,7 +8,8 @@
       "Bash(curl -s -I \"https://chanjuanjin.github.io/chanjuan.github.io/chanjuan_pic.jpg\")",
       "Bash(curl -s -I \"https://chanjuanjin.github.io/chanjuan.github.io/_next/static/chunks/4bd1b696-70b6d399998de86a.js\")",
       "Bash(curl -s -I \"https://chanjuanjin.github.io/chanjuan_pic.jpg\")",
-      "Bash(npm list *)"
+      "Bash(npm list *)",
+      "Read(//Users/chanjuanjin/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_jejdpdtilu9722_e808/msg/file/2026-05/**)"
     ]
   }
 }

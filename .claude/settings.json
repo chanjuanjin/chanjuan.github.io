@@ -9,7 +9,20 @@
       "Bash(curl -s -I \"https://chanjuanjin.github.io/chanjuan.github.io/_next/static/chunks/4bd1b696-70b6d399998de86a.js\")",
       "Bash(curl -s -I \"https://chanjuanjin.github.io/chanjuan_pic.jpg\")",
       "Bash(npm list *)",
-      "Read(//Users/chanjuanjin/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_jejdpdtilu9722_e808/msg/file/2026-05/**)"
+      "Read(//Users/chanjuanjin/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_jejdpdtilu9722_e808/msg/file/2026-05/**)",
+      "Bash(cp \"/Users/chanjuanjin/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_jejdpdtilu9722_e808/msg/file/2026-05/verix-roadshow.html\" \"/Users/chanjuanjin/Desktop/chanjuan.github.io/public/verix-roadshow.html\")",
+      "Bash(git checkout *)",
+      "Read(//Users/chanjuanjin/Desktop/**)",
+      "Bash(mkdir -p neex-bot)",
+      "Bash(chmod 644 /Users/chanjuanjin/Desktop/neex-bot/index.html)",
+      "Bash(git branch *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://chanjuanjin.github.io/neex-bot/)",
+      "Bash(curl -s https://chanjuanjin.github.io/neex-bot/)",
+      "Bash(curl -s \"https://api.github.com/repos/chanjuanjin/neex-bot/actions/runs?per_page=1\")"
+    ],
+    "additionalDirectories": [
+      "/Users/chanjuanjin/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_jejdpdtilu9722_e808/msg/file/2026-05",
+      "/Users/chanjuanjin/Desktop/neex-bot"
     ]
   }
 }

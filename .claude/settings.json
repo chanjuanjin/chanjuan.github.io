@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh run *)",
+      "Bash(curl -s \"https://chanjuanjin.github.io/\")",
+      "Bash(curl -s -I \"https://chanjuanjin.github.io/\")"
+    ]
+  }
+}
